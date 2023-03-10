@@ -1,0 +1,57 @@
+.container {
+  position: relative;
+  height: 300px;
+  width: 300px;
+}
+
+.container div {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+.green
+{
+background-color: green;
+}
+.yellow
+{
+background-color: yellow;
+}
+.left-top-moved {
+  top: 10px;
+  left: 10px;
+}
+.right-top-moved {
+  top: 10px;
+  right: 10px;
+}
+.right-bottom-moved
+{
+  bottom: 10px;
+  right: 10px;
+}
+.left-bottom {
+  bottom: 0;
+}
+.right-top {
+  right: 0;
+}
+.right-bottom {
+  bottom: 0;
+  right: 0;
+}
+.left-bottom-moved {
+  bottom: 10px;
+  left: 10px;
+}
+.on-top {
+  z-index: 1;
+}

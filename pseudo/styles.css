@@ -1,0 +1,75 @@
+p::first-letter {
+    color: blue;
+    text-transform: uppercase;
+    font-size: 70px;
+  }
+  
+  p::before {
+    content: "";
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+  }
+  
+  p::after {
+    content: "AFTER";
+  }
+  
+  a::after {
+    content: "CLICK HERE";
+    color: red;
+  }
+  
+  a:active::after {
+    color: green;
+  }
+  
+  img {
+    display: block;
+    height: 300px;
+    border: 5px solid blue;
+    
+  }
+  
+  div {
+    position: relative;
+    width: fit-content;
+  }
+  
+  div::after {
+    content: attr(data-notification);
+    color: white;
+    font-family: Arial;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+    scale: 0;
+    transition: all 0.82s;
+    
+  }
+  
+  div:hover::after {
+    scale: 2;
+    background-color: green;
+  }
+  
+  /*
+  1. Move our notification to right corner
+    - top, left, bottom, top 
+    - trasform trnaslate
+  2. wrapper(div) on hover of which we need to show notification
+    - div:hover::after
+    display: none -> display: inline-block
+  2*. width, height or transform with a scale
+  */
+  

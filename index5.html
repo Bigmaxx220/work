@@ -1,0 +1,394 @@
+<!DOCTYPE HTML5>
+<html>
+<!--head-->
+    <head>
+        <meta charset="utf-8">
+        <base href="/">
+        <title>Homework Shemet </title>
+        <meta name="description" content="">
+        <meta name="author" content="Maksym Shemet">
+     
+     <style>
+* {
+    font-family: "Nunito Sans",sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    zoom: 1;
+    box-sizing: border-box;
+    zoom: 1;
+}
+    html {
+    background: #fff;
+    color: #000;
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+    body {
+    background: #fff;
+    color: #606060;
+    font-size: 12px;
+    line-height: 1.5em;
+    margin: 0;
+    position: relative;
+    z-index: 0;
+    
+}
+a {
+    color: #007cdc;
+    text-decoration: none;
+}
+#site-body, #site-footer, #site-header, #site-header-footer, #site-header.stuck {
+    min-width: 1020px;
+}
+
+#banner {
+    position: relative;
+    overflow: hidden;
+    background: #EAF1F1;
+    padding: 8vw 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+}
+#banner .content {
+    position: relative;
+    z-index: 2;
+    height: auto;
+    padding: 0;
+    width: 92%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+#banner .content .title {
+    font-size: 64px!important;
+    letter-spacing: -.009em;
+    line-height: 1.0625em;
+    max-width: 680px;
+    position: relative;
+    display: block;
+    color: #000;
+    text-align: left;
+    margin: 0;
+    padding-right: 0;
+    right: 0;
+    opacity: 1;
+    transform: translate(0,0);
+}
+#dragDrop {
+    background: #D9F0EC;
+    height: 720px;
+}
+#dreamIt {
+    overflow: hidden;
+}
+#buildIt {
+    background: #3B516B;
+}
+.section .content {
+    padding: 5.5rem 0;
+    margin: 0 auto;
+    text-align: center;
+}
+#buildIt .title {
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+}
+#banner .content .inner {
+    margin-left: auto;
+    width: 100%;
+    max-width: 680px;
+    position: relative;
+    margin-top: 0;
+    text-align: center;
+}
+
+#banner .img {
+    width: 757px;
+    height: 410px;
+    background: url(/img/skin/pagebuilder/img_hero2.png) left center/contain no-repeat;
+    position: absolute;
+    margin: auto 0;
+    top: 0;
+    bottom: 0;
+    right: calc(100% - (5.6/12 * 100%));
+}
+#banner .content .description .introVideo {
+    color: #F65A1D;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 1.2105em;
+    letter-spacing: .012em;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    margin-right: 50px;
+    -moz-transition: color .2s ease;
+    -o-transition: color .2s ease;
+    -webkit-transition: color .2s ease;
+    transition: color .2s ease;
+}
+#banner .content .description .introVideo i {
+    width: 30px;
+    height: 30px;
+    background-image: url(data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' opacity='0'/%3E%3Cpath fill='%23F65A1D' d='M-1839-2022a9.01,9.01,0,0,1-9-9,9.01,9.01,0,0,1,9-9,9.01,9.01,0,0,1,9,9A9.01,9.01,0,0,1-1839-2022Zm-2-13h0v8l6-4-6-4Z' transform='translate(1851 2043)'/%3E%3C/svg%3E);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    top: 7px;
+    margin-left: 3px;
+}
+#banner .content .description .introVideo+.introVideo {
+    margin-right: 0;
+}
+#banner .content .description .introVideo:after {
+    content: '';
+    display: block;
+    margin-top: .15rem;
+    border-top: 1px dotted #F65A1D;
+}
+#banner .content .description .btnwrap {
+    margin: 0;
+    max-width: 550px;
+    text-align: left;
+}
+#banner .content .description p {
+    color: #1d1d1f;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2em;
+    letter-spacing: .009em;
+}
+#banner .content .description div {
+    margin: 45px 0 20px;
+}
+#banner .content .description a.btn {
+    display: inline-block;
+    padding: 0;
+    margin: 0 auto;
+    color: #fff;
+    background: #0078D7;
+    height: 48px;
+    line-height: 48px;
+    width: 256px;
+    text-align: center;
+    text-transform: uppercase;
+    -moz-transition: background .2s ease;
+    -o-transition: background .2s ease;
+    -webkit-transition: background .2s ease;
+    transition: background .2s ease;
+}
+#banner .content .description {
+    text-align: left;
+    width: 100%;
+    max-width: 850px;
+    margin: 30px 0 0;
+}
+.section a.btn {
+    font-size: 14px;
+    font-weight: 700;
+    min-width: 256px;
+    letter-spacing: .1em
+}
+.section .title {
+    font-size: 56px!important;
+    line-height: 1.0714em;
+    letter-spacing: -.005em;
+}
+.section .content {
+    padding: 5.5rem 0;
+    margin: 0 auto;
+    text-align: center;
+}
+#buildIt a {
+    color: #fff;
+    opacity: .9;
+}
+
+#buildIt p {
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(255,255,255,.8);
+    font-size: 21px;
+    letter-spacing: .011em;
+    line-height: 1.11904em;
+    width: calc(8/12 * 100%);
+    max-width: 760px;
+}
+.section p {
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    line-height: 1.2105em;
+    letter-spacing: 0;
+}
+p {
+    color: #606060;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .025em;
+    line-height: 1.5em;
+    margin: 1em 0;
+}
+
+pre {
+  margin: 1em 0;
+}
+
+.section h3.getStarted a {
+    color: #0078D7;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    line-height: 1.2105em;
+    letter-spacing: .012em;
+    font-weight: 700;
+}
+#dragDrop .row {
+    width: 92%;
+    height: 100%;
+    margin: 0 auto;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+}
+.section .row {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+#dragDrop .content * {
+    color: rgba(0,0,0,.89);
+    text-align: left;
+}
+.dragDrop .content {
+    max-width: 500px;
+    width: 80%;
+    padding: 0;
+    text-align: left;
+}
+#dragDrop .content a {
+    opacity: .9;
+    color: #0078D7;
+}
+#dragDrop .content p.lighter {
+    color: rgba(0,0,0,.8);
+}
+.section h3.getStarted {
+    font-size: 19px!important;
+    font-weight: 600;
+    margin: 0 0 1rem;
+    line-height: 1.2105em;
+    letter-spacing: 0;
+}
+.section h3.getStarted a {
+    color: #0078D7;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    line-height: 1.2105em;
+    letter-spacing: .012em;
+    font-weight: 700;
+}
+#dragDrop .content a b {
+    background: url(data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8.121' height='13.414' viewBox='0 0 8.121 13.414'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:none;stroke:%230078D7;stroke-width:2px;%7D%3C/style%3E%3C/defs%3E%3Cg transform='translate(0.707 0.707)'%3E%3Cpath class='a' d='M1284,5322l6,6-6,6' transform='translate(-1284 -5322)'/%3E%3C/g%3E%3C/svg%3E) 2px 0/contain no-repeat;
+}
+#dragDrop .content a:after {
+    border-top: 1px dotted #0078D7;
+}
+.section h3.getStarted a:after {
+    content: '';
+    display: block;
+    margin-top: .15rem;
+    border-top: 1px dotted #0078d7;
+}
+#dragDrop .row .col {
+    width: 50%;
+}
+body.webp #dragDrop .img.lazy-bg-loaded {
+    background-image: url(/img/skin/home-ml/webp/dragdrop.webp);
+}
+
+#dragDrop .img.lazy-bg-loaded {
+    background-image: url(/img/skin/home-ml/dragdrop.png);
+}
+#dragDrop .img {
+    max-width: 600px;
+    width: 100%;
+    height: 480px;
+    margin: 60px auto 0;
+    background: top center/contain no-repeat;
+}
+    </style>
+    </head>
+    <body>
+  <div id="banner" class="section">
+    <div class="content">
+    <div class="inner">
+      <h1 class="title">Create a beautiful website for any device.</h1>
+      <div class="description">
+        <p>
+          Quickly create a professional website that looks stunning on desktops, tablets and even mobile devices with Website.com website builder.
+        </p>
+        <div class="btnwrap">
+          <a href="#" class="introVideo" data-href="https://www.youtube.com/embed/bfedPUSdfy0" title="Watch Desktop Demo"><span><span>Watch Desktop Demo</span><i></i></span></a>
+          <a href="#" class="introVideo" data-href="https://www.youtube.com/embed/4HRmaQF3ee8" title="Watch Mobile Demo"><span><span>Watch Mobile Demo</span><i></i></span></a>
+            <div><a class="btn signupPopup" href="/sign-up/" title="Get Started Now">Get Started Now</a></div>
+            </div>
+        </div>
+      </div>
+    </div>
+  <div class="img"></div>
+</div>
+<div id="buildIt" class="section">
+  <div class="content">
+    <h2 class="title">Make your own website.</h2>
+      <p>
+        Whether you're growing your business, selling online or establishing an online presence - discover the easiest way to get online with the Website.com website builder.
+      </p>
+    <h3 class="getStarted"><a href="/sign-up/">Get A Free Website Now <b></b></a></h3>
+  </div>
+</div>
+<div id="dragDrop" class="section">
+  <div class="row">
+    <div class="col">
+      <div class="img lazy-bg-loaded"></div>
+    </div>
+      <div class="col">
+        <div class="content">
+          <h2 class="title">Hands down, the easiest way to make a website.</h2>
+            <p class="lighter">Start with a ready-to-go template to get online right away! Just add your content and choose premade sections to quickly launch your online presence for any industry. Explore online store features, social media integrations, contact forms and more. A few clicks later, you're online with a responsive website for all devices.</p>
+            <h3 class="getStarted"><a href="/sign-up/">Build My Free Website <b></b></a></h3>
+        </div>
+      </div>
+  </div>
+</div>
+    </body>
+</html>

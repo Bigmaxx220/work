@@ -1,0 +1,17 @@
+
+.my_image
+{
+    width: 20%;
+    height: 20%;
+    transition: transform 0.2s;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+div{
+    display: inline;
+}
+img:hover
+{
+    transform: scale(1.2);
+  
+}

@@ -1,0 +1,9 @@
+body>#container>.red
+{
+    color: red;
+}
+
+body>#container
+{
+    color: blue;
+}
