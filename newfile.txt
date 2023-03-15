@@ -1,0 +1,13 @@
+Wed Mar 15 06:47:19     2023
+Filesystem            Size  Used Avail Use% Mounted on
+C:/Program Files/Git  119G   98G   21G  83% /
+vendor_id	: GenuineIntel
+vendor_id	: GenuineIntel
+vendor_id	: GenuineIntel
+vendor_id	: GenuineIntel
+5
+   88  grep 'vendor_id' /proc/cpuinfo >> newfile.txt
+   89  cat newfile.txt
+   90  ps aux | wc -l | awk '{print $1-1}' >> newfile.txt
+   91  cat newfile.txt
+   92  history | tail -n 5 >> newfile.txt
